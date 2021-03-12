@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Reface CP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./script.js"></script> -->
+  </head>
+
+  <body>
+
+    <!-- **********  R  E  F  A  C  E  -  C  P    ************ -->
+
+    <div class="reface_wrapper">
+
+      <div class="reface_cp">
+
+        <!-- **********  KNOBS, SLIDERS, ETC...  ************ -->
+        <div class="control_panel">
+          <div class="control">
+
+            <p class="speaker_L"></p>
+
+
+                                <!-- ***SLIDERS*** -->
+            <!-- <p class="sliders"> -->
+            <p class="slider_lines">
+              <p class="slider_vol"><p class="inner_slider_vol"></p></p>
+              <p class="vol">VOL</p>
+            </p>
+            <p class="slider_lines">
+              <p class="slider_oct"><p class="inner_slider_oct"></p></p>
+              <div class="octaves">
+                <p>++</p>
+                <p>+</p>
+                <p>OCT</p>
+                <p>-</p>
+                <p>--</p>
+              </div>
+            </p>
+            <p class="slider_void"></p>
+            <!-- </p> -->
+
+            <p class="main_knobs">
+              <div class="sounds sounds_L">
+                <p><p class="led_small ls_1"></p>Wr ---</p>
+                <p><p class="led_small ls_2"></p>RdII --</p>
+                <p><p class="led_small ls_3"></p>RdI ---</p>
+              </div>
+              <p class="knob type"><p class="inner_knob type_inner"></p></p>
+              <p class="knob_name type_name">TYPE</p>
+              <div class=" sounds sounds_R">
+                <p>--- Clv<p class="led_small ls_4"></p></p>
+                <p>-- Toy<p class="led_small ls_5"></p></p>
+                <p>--- CP<p class="led_small ls_6"></p></p>
+              </div>
+              <p class="knob drive"><p class="inner_knob drive_inner"></p></p>
+              <p class="knob_name drive_name">DRIVE</p>
+            </p>
+
+
+                  <!-- ***TREMOLO*** -->
+            <p class="fx_knobs">
+              <p class="module_top tremolo">TREMOLO</p>
+              <p class="led led_1"></p>
+              <p class="knob L1"><p class="inner_knob L1_inner"></p></p>
+              <p class="knob_name depth1_name">DEPTH</p>
+              <p class="handle h1"><p class="inner_handle h1_inner"><p class="small_handle sh_1"></p></p></p>
+              <p class="knob R1"><p class="inner_knob R1_inner"></p></p>
+              <p class="knob_name rate_name">RATE</p>
+              <p class="module_bottom wah">WAH</p>
+            </p>
+
+                 <!-- ***CHORuS*** -->
+            <p class="fx_knobs">
+              <p class="module_top chorus">CHORUS</p>
+              <p class="led led_2"></p>
+              <p class="knob L2"><p class="inner_knob L2_inner"></p></p>
+              <p class="knob_name depth2_name">DEPTH</p>
+              <p class="handle h2"><p class="inner_handle h2_inner"><p class="small_handle sh_2"></p></p></p>
+              <p class="knob R2"><p class="inner_knob R2_inner"></p></p>
+              <p class="knob_name speed_name">SPEED</p>
+              <p class="module_bottom phaser">PHASER</p>
+            </p>
+
+
+                <!-- ***DELAY*** -->
+            <p class="fx_knobs">
+              <p class="module_top d_delay">D.DELAY</p>
+              <p class="led led_3"></p>
+              <p class="knob L3"><p class="inner_knob L3_inner"></p></p>
+              <p class="knob_name depth3_name">DEPTH</p>
+              <p class="handle h3"><p class="inner_handle h3_inner"><p class="small_handle sh_3"></p></p></p>
+              <p class="knob R3"><p class="inner_knob R3_inner"></p></p>
+              <p class="knob_name time_name">TIME</p>
+              <p class="module_bottom a_delay">A.DELAY</p>
+            </p>
+
+              <!-- ***REVERB*** -->
+            <p class="fx_knob">
+              <p class="module_top reverb">REVERB</p>
+              <p class="led led_4"></p>
+              <p class="knob rev"><p class="inner_knob rev_inner"></p></p>
+              <p class="knob_name depth4_name">DEPTH</p>
+            </p>
+
+            <p class="speaker_R"></p>
+
+          </div>
+        </div>
+
+        <div class="name_panel">
+            <p class="yamaha">YAMAHA</p>
+            <p class="name_void"></p>
+            <p class="cp">CP</p>
+
+        </div>
+
+
+        <!-- ***********  THE KEYS  ************  -->
+        <div class="klavier_panel">
+          <div class="klavier">
+            <!-- ********  TOP ROW  ********* -->
+            <div class="top_row">
+
+              <p class="white_top" onclick="document.getElementById('C1').play();"></p>
+              <p class="black" onclick="document.getElementById('C1_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('D1').play();"></p>
+              <p class="black" onclick="document.getElementById('D1_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('E1').play();"></p>
+              <p class="white_top" onclick="document.getElementById('F1').play();"></p>
+              <p class="black" onclick="document.getElementById('F1_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('G1').play();"></p>
+              <p class="black" onclick="document.getElementById('G1_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('A1').play();"></p>
+              <p class="black" onclick="document.getElementById('A1_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('B1').play();"></p>
+
+              <p class="white_top" onclick="document.getElementById('C2').play();"></p>
+              <p class="black" onclick="document.getElementById('C2_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('D2').play();"></p>
+              <p class="black" onclick="document.getElementById('D2_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('E2').play();"></p>
+              <p class="white_top" onclick="document.getElementById('F2').play();"></p>
+              <p class="black" onclick="document.getElementById('F2_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('G2').play();"></p>
+              <p class="black" onclick="document.getElementById('G2_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('A2').play();"></p>
+              <p class="black" onclick="document.getElementById('A2_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('B2').play();"></p>
+
+              <p class="white_top" onclick="document.getElementById('C3').play();"></p>
+              <p class="black" onclick="document.getElementById('C3_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('D3').play();"></p>
+              <p class="black" onclick="document.getElementById('D3_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('E3').play();"></p>
+              <p class="white_top" onclick="document.getElementById('F3').play();"></p>
+              <p class="black" onclick="document.getElementById('F3_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('G3').play();"></p>
+              <p class="black" onclick="document.getElementById('G3_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('A3').play();"></p>
+              <p class="black" onclick="document.getElementById('A3_sharp').play();"></p>
+              <p class="white_top" onclick="document.getElementById('B3').play();"></p>
+
+              <p class="white_top last_white_top" onclick="document.getElementById('C4').play();"></p>
+
+
+              <!-- <p class="white_top">C1</p>
+              <p class="black">Db1</p>
+              <p class="white_top">D1</p>
+              <p class="black">Eb1</p>
+              <p class="white_top">E1</p>
+              <p class="white_top">F1</p>
+              <p class="black">Gb1</p>
+              <p class="white_top">G1</p>
+              <p class="black">Ab1</p>
+              <p class="white_top">A1</p>
+              <p class="black">Bb1</p>
+              <p class="white_top">B1</p>-->
+            </div>
+
+
+
+
+
+            <!-- ********  BOTTOM ROW  ********* -->
+            <div class="bottom_row">
+
+              <p class="white" onclick="document.getElementById('C1').play();"></p>
+              <p class="white" onclick="document.getElementById('D1').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('E1').play();"></p>
+              <p class="white" onclick="document.getElementById('F1').play();"></p>
+              <p class="white" onclick="document.getElementById('G1').play();"></p>
+              <p class="white" onclick="document.getElementById('A1').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('B1').play();"></p>
+
+              <p class="white" onclick="document.getElementById('C2').play();"></p>
+              <p class="white" onclick="document.getElementById('D2').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('E2').play();"></p>
+              <p class="white" onclick="document.getElementById('F2').play();"></p>
+              <p class="white" onclick="document.getElementById('G2').play();"></p>
+              <p class="white" onclick="document.getElementById('A2').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('B2').play();"></p>
+
+              <p class="white" onclick="document.getElementById('C3').play();"></p>
+              <p class="white" onclick="document.getElementById('D3').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('E3').play();"></p>
+              <p class="white" onclick="document.getElementById('F3').play();"></p>
+              <p class="white" onclick="document.getElementById('G3').play();"></p>
+              <p class="white" onclick="document.getElementById('A3').play();"></p>
+              <p class="white fix_e" onclick="document.getElementById('B3').play();"></p>
+
+              <p class="white" onclick="document.getElementById('C4').play();"></p>
+
+
+
+              <!-- <p class="white">C1</p>
+              <p class="white">D1</p>
+              <p class="white">E1</p>
+              <p class="white">F1</p>
+              <p class="white">G1</p>
+              <p class="white">A1</p>
+              <p class="white">B1</p> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- **********  AUDIO SOURCES  ************ -->
+    <!-- ________________________OCTAVE_1 -->
+    <audio id="C1">
+      <source src="./notes/C1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="C1_sharp">
+      <source src="./notes/C1_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D1">
+      <source src="./notes/D1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D1_sharp">
+      <source src="./notes/D1_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="E1">
+      <source src="./notes/E1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F1">
+      <source src="./notes/F1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F1_sharp">
+      <source src="./notes/F1_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G1">
+      <source src="./notes/G1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G1_sharp">
+      <source src="./notes/G1_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A1">
+      <source src="./notes/A1.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A1_sharp">
+      <source src="./notes/A1_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="B1">
+      <source src="./notes/B1.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- ________________________OCTAVE_2 -->
+    <audio id="C2">
+      <source src="./notes/C2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="C2_sharp">
+      <source src="./notes/C2_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D2">
+      <source src="./notes/D2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D2_sharp">
+      <source src="./notes/D2_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="E2">
+      <source src="./notes/E2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F2">
+      <source src="./notes/F2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F2_sharp">
+      <source src="./notes/F2_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G2">
+      <source src="./notes/G2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G2_sharp">
+      <source src="./notes/G2_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A2">
+      <source src="./notes/A2.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A2_sharp">
+      <source src="./notes/A2_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="B2">
+      <source src="./notes/B2.mp3" type="audio/mp3">
+    </audio>
+
+
+    <!-- ________________________OCTAVE_3 -->
+    <audio id="C3">
+      <source src="./notes/C3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="C3_sharp">
+      <source src="./notes/C3_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D3">
+      <source src="./notes/D3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="D3_sharp">
+      <source src="./notes/D3_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="E3">
+      <source src="./notes/E3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F3">
+      <source src="./notes/F3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="F3_sharp">
+      <source src="./notes/F3_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G3">
+      <source src="./notes/G3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="G3_sharp">
+      <source src="./notes/G3_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A3">
+      <source src="./notes/A3.mp3" type="audio/mp3">
+    </audio>
+    <audio id="A3_sharp">
+      <source src="./notes/A3_sharp.mp3" type="audio/mp3">
+    </audio>
+    <audio id="B3">
+      <source src="./notes/B3.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- ________________________OCTAVE_4 -->
+    <audio id="C4">
+      <source src="./notes/C4.mp3" type="audio/mp3">
+    </audio>
+
+
+
+
+
+    <div class="signature">
+      made by Elena Marinaki
+    </div>
+  </body>
+
+</html>
